@@ -1,0 +1,66 @@
+React Js + Redux Testing -> 
+___________________________
+
+1) Component and Forms
+2) Connect Component -> component connected with store 
+3) Actions and Async Action Creators
+4) Reducers
+5) Router
+
+____________________________
+
+Jest -> test running and test engine 
+
+expect, describe, it
+
+____________________________
+
+Component Testing -> 
+__________________
+
+Enzyme -> npm install enzyme
+
+1) shallow -> not render child component
+2) mount -> full dom rendering
+3) render -> only render method call of component
+
+preferences ->
+
+first use shallow, if u want to render child component
+
+find(childCOMponent).render()
+
+to test events-> simulate method to mock events
+
+2) snapshot testing -> 
+
+npm install react-test-renderer
+
+_____________________________________
+
+2) Connected Component Testing ->
+
+1) to mock store  -> npm install redux-mock-store
+
+___________________________________
+
+
+3) Action Creators Testing ->
+
+jest.fn() -> to mock the methods
+
+to mock fetch method -> npm install fetch-mock
+
+1) mock store 
+2) getActions() -> to get the list of actions send to store
+
+
+____________________________
+
+4) Reducers Testing -> 
+
+Reducers are just pure function
+
+_________________________________
+
+5) Router Testing ->

@@ -1,0 +1,186 @@
+React ->
+__________________
+
+1) HTML
+
+2) CSS
+
+3) JS ( ES6 ) 
+
+4) NODEJS
+
+________________________
+
+
+JSX -> HTML
+
+_____________
+
+
+npm 
+nodejs v8 
+
+--> create-react-app 
+
+Tool to generate React project ->
+
+npm install create-react-app -g 
+
+
+__________________________
+
+
+To create new react project
+
+>> create-react-app projectName
+
+____________________________________
+
+
+Advantages using React js 
+
+1) Rendering is faster than other frameworks
+2) Virtual dom (diffi algo)
+3) light weight(size)
+
+
+
+React JS Structure -> 
+
+
+Based on components 
+
+
+2 kind of components
+
+1) stateless  -> functional compoenent
+
+	function compoentname() {
+		return (jsx statement);
+	}
+
+
+
+2) stateful -> container components 
+
+	class ComponentName extends React.Component {
+		constructor(){
+	
+			this.state = {
+				username: "tst"
+			}
+		}
+		render(){
+			return (jsx statement);
+		}
+
+	}
+
+
+
+
+
+ROOT COMPONENT -> child components 
+
+
+Lifecycle of component
+
+1) Mount -> 
+	1) ComponentWillMount(){
+	
+	}
+
+	2) render()
+
+	3)ComponentDidMount(){
+		here we call actions and api call	
+	}
+	
+
+2) Update 
+
+
+3) Unmount
+
+
+
+1) state and props 
+
+	ways to update the component
+
+	1) update state  -> setState method
+	2) forceUpdate 
+
+2) ref
+
+3) statefull and stateless components
+
+4) component communication
+
+5) Routing -> react-router-dom (provides clientside routing)
+
+
+npm install react-router-dom
+
+
+__________________________________________________
+ 
+Difference between HTML and React Component
+
+html tag are in small letters
+React Component state with Capital letter
+
+
+
+_______________
+
+
+Create Login page component -> using react
+
+
+input-> username
+input -> password
+
+->  login button -> on click of login button display message
+
+"login success with entered username"
+
+
+
+
+Clientside Routing ->
+
+npm install react-router-dom
+
+
+
+____________________________________________
+
+
+create 4 pages 
+
+home, aboutus, details, contact 
+
+and routing with navigation bar
+
+___________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+Questions?
+_______________________________
+React 
+React Component and its type
+React Life Cycle
+State and props
+Routing
+________________________________
+
+API integtration with components  -> 
+
+
+1) Fetch method
+
+2) Axios module of npm
+
+
+_______________________________
+
+Redux module -> npm install redux
+
+Redux -> Lib to maintain state of application
+
+1) getState()
+2) dispatch
+3) subscribe()
+
+Flow ->
+
+action -> just a plain object with type property 
+
+{ 
+  type: "ADD_PRODUCT", payload: productDetailsObj
+}
+ 
+
+Reducer -> pure function 
+
+function add(state, action){
+	return state;
+}
+
+
+Updation flow of store ->
+
+1) dispatch action
+2) corresponding reducer called and give new state
+3) update store
+
+
+how to create store ->
+
+createStore function provided by redux lib
+
+var store = createStore(reducer, applyMiddleware([redux-thunk]));
+
+ApplyMiddleware -> a method getting called before dispatching action to reducer
+
+
+function(getState, dispatch){
+
+	return function(next){
+
+		return function(action){
+
+			
+
+			next(action);
+		}
+	}
+}
+
+
+combineReducer method -> to combine the multiple reducers
+
+sepration of concern ->
+_________________________________________________
+
+redux-thunk -> npm install redux-thunk
+
+allow us to pass function in dispatch, to perform asyc store update
+
+
+function actionCreator(){
+
+	return function(dispatch){
+
+	   asyc statement
+	   dispatch(action);
+	}
+}
+
+______________________________________________
+
+
+ActionCreator or actionGenerator -> a function which give us a action
+
+
+
+react-redux module -> npm install react-redux
+
+it is used to connect redux with react
+
+
+it give us <Provider/> wrapper component to avail store across application
+
+connect method -> connect store with react component
+
+connect(mapStateToProps, mapDispatchToProps);
+
+
+
+
+
+
+
+
+
+
+

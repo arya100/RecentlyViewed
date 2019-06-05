@@ -1,0 +1,206 @@
+.holder {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  overflow: hidden;
+
+  padding: 0 0 20px;
+}
+.search {
+  width: 50%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+img {
+  float: left;
+  display: block;
+  width: 50px;
+  height: 50px;
+
+  margin: 0 10px 0 0;
+}
+span {
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+}
+.header-text {
+  padding-top: 33px;
+}
+.header {
+  margin-top: 30px;
+  margin-right: 10px;
+  max-width: 1024px;
+}
+a {
+  font-weight: 700;
+}
+span {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.location-icon {
+  content: "\edbf";
+}
+.profile {
+  border-right: 1px solid #e5e5e5;
+  padding-right: 15px;
+}
+.profile-icon {
+  width: 31px;
+  height: 31px;
+  margin: auto;
+}
+.profile-section {
+  float: right;
+  display: inline-flex;
+}
+.cart-icon {
+  width: 32px;
+  height: 32px;
+  margin: auto;
+}
+.stepcarousel {
+  position: relative; /*leave this value alone*/
+  border: 20px solid navy;
+  overflow: scroll; /*leave this value alone*/
+  width: 280px;
+  height: 200px; /*Height should enough to fit largest content's height*/
+}
+
+.stepcarousel .belt {
+  position: absolute; /*leave this value alone*/
+  left: 0;
+  top: 0;
+}
+
+.stepcarousel .panel {
+  float: left; /*leave this value alone*/
+  overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+  margin: 15px; /*margin around each panel*/
+  width: 250px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+.cart-box {
+  margin-left: 5px;
+  text-align: center;
+  height: 38px;
+  color: #999;
+  background: #e5e5e5;
+  position: relative;
+  border-color: #e5e5e5;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #e5e5e5;
+  width: 35px;
+}
+.logo {
+  width: 40%;
+  height: auto;
+  padding: 10px;
+}
+.logo-container {
+  width: 40%;
+  padding: 10px;
+}
+.nav-bar {
+  background: #0471af;
+  color: #fff;
+  height: 65px;
+  text-align: left;
+  vertical-align: middle;
+
+  align-items: center;
+}
+.align-center {
+  align-self: center;
+}
+.menu-heading {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 7px;
+  color: white;
+}
+.menu-bar {
+  display: flex;
+}
+.root-layout {
+  max-width: 1024px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-control {
+  width: 75% !important;
+}
+.search-inline {
+  background-color: #00499096;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.footer-bar {
+  width: 100%;
+  height: 100px;
+  color: white;
+  background: #0471af;
+}
+.imgslide {
+  height: 500px;
+  width: 100%;
+}
+.text-center {
+  font-family: "DIN Next", Helvetica, Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  font-size: x-large;
+}
+.serv {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  padding-top: 15px;
+}
+
+.serv li {
+  list-style: none;
+  flex: 0 0 25%;
+}
+.serv li img {
+  height: 100px;
+  width: 100px;
+}
+
+.right btn btn-primary {
+  position: absolute;
+  right: 150px;
+}
+
+.p {
+}
